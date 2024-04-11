@@ -160,6 +160,8 @@ public class BookSearcher {
         return result;
     }
 
+    // Making some change
+
     public static List<Book> searchByCopies(int copies, List<Book> books) {
         List<Book> result = new ArrayList<>();
         for (Book book : books) {
